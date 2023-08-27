@@ -6,7 +6,7 @@ public class tries {
         Node children[] = new Node[26];
         boolean eow; //EndOfWord
 
-        Node() {
+        public Node() {
             for (int i = 0; i < 26; i++) {
                 children[i] = null; //initialize all the children nodes as null
             }
