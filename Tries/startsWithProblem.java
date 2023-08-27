@@ -31,8 +31,9 @@ public class startsWithProblem {
 
         }
     }
-    //starts with problem
-    public static boolean search(String prefix) {
+
+    // starts with problem
+    public static boolean startWith(String prefix) {
         Node curr = root;
         for (int i = 0; i < prefix.length(); i++) {
             int indx = prefix.charAt(i) - 'a';
@@ -49,8 +50,10 @@ public class startsWithProblem {
         for (int i = 0; i < arr.length; i++) {
             insert(arr[i]);
         }
-        String prefix = "app";
-        System.out.println(search(prefix));
+        String prefix1 = "app";
+        String prefix2 = "mand";
+        System.out.println(startWith(prefix1));
+        System.out.println(startWith(prefix2));
 
     }
 
