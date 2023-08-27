@@ -31,7 +31,7 @@ public class startsWithProblem {
 
         }
     }
-
+    //starts with problem
     public static boolean search(String prefix) {
         Node curr = root;
         for (int i = 0; i < prefix.length(); i++) {
