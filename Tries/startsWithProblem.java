@@ -1,9 +1,14 @@
+/*Create a function boolean startWith(String prefix) for a trie.
+Return true if there is a previously inserted string word that has the prefix and false otherwise
+words[] = {"apple","app","mango","man","woman"}
+prefix = "app" :  output = true
+prefix = "moon" : output = false
+*/
 package Tries;
 
-public class WordBreakProblem {
+public class startsWithProblem {
     static class Node {
         Node children[] = new Node[26];
-        boolean eow = false;
 
         public Node() {
             for (int i = 0; i < 26; i++) {
@@ -25,13 +30,12 @@ public class WordBreakProblem {
             curr = curr.children[indx];
 
         }
-        curr.eow = true;
     }
 
-    public static boolean search(String key) {
+    public static boolean search(String prefix) {
         Node curr = root;
-        for (int level = 0; level < key.length(); level++) {
-            int indx = key.charAt(level) - 'a';
+        for (int i = 0; i < prefix.length(); i++) {
+            int indx = prefix.charAt(i) - 'a';
             if (curr.children[indx] == null) {
                 return false;
             }
@@ -39,27 +43,15 @@ public class WordBreakProblem {
         }
         return true;
     }
-    //WordBreak Problem .
-    public static boolean wordBreak(String key) { //O(L) - Linear time complexity
-        if (key.length() == 0) {
-            return true;
-        }
-        for (int i = 1; i <= key.length(); i++) {
-            if (search(key.substring(0, i)) && wordBreak(key.substring(i))) {
-                return true;
-            }
-
-        }
-        return false;
-    }
 
     public static void main(String[] args) {
-        String arr[] = { "i", "like", "samsung", "good", "ice" };
+        String arr[] = { "appman", "apple", "mango", "man" };
         for (int i = 0; i < arr.length; i++) {
             insert(arr[i]);
         }
-        String key = "ilikessamsung";
-        System.out.println(wordBreak(key));
+        String prefix = "app";
+        System.out.println(search(prefix));
 
     }
+
 }
