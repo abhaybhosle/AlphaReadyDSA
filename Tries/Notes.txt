@@ -1,0 +1,6 @@
+A Trie (pronounced "try") is a tree-like data structure that is used to store a dynamic set of strings or keys in a way that allows for efficient insertion, deletion, and searching of strings. 
+
+Its primary use case is for tasks that involve fast prefix-based string matching, such as autocomplete suggestions, spell checking, and IP routing.
+
+Inserting/Searching/Deletion  a word into a Trie has a time complexity of O(L), where L represents the length of the String 
+
