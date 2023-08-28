@@ -4,7 +4,7 @@ import java.util.ArrayList;
 import java.util.LinkedList;
 import java.util.Queue;
 
-public class BFS {
+public class BFS_DFS {
     static class Edge {
         int src;
         int dest;
@@ -67,11 +67,25 @@ public class BFS {
         }
     }
 
+    public static void dfs(ArrayList<Edge> graph[], int curr, boolean vis[]) {
+        // visit
+        System.out.print(curr + " ");
+        vis[curr] = true;
+
+        for (int i = 0; i < graph[curr].size(); i++) {
+            Edge e = graph[curr].get(i);
+            if (!vis[e.dest]) {
+                dfs(graph, e.dest, vis);
+            }
+        }
+    }
+
     public static void main(String[] args) {
         int V = 7;
         ArrayList<Edge> graph[] = new ArrayList[V];
         createGraph(graph);
-        bfs(graph);
+        // bfs(graph);
+        dfs(graph, 0, new boolean[V]);
 
     }
 }
