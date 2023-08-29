@@ -1,0 +1,25 @@
+* ArrayList : is a class in java.util package which implements dynamic-sized arrays. 
+-> OR it is a resizable array.
+-> The difference between a built-in array and an ArrayList in Java, 
+is that the size of an array cannot be modified ,
+While elements can be added and removed from an ArrayList whenever you want. 
+
+* Operations in ArrayList: 
+     1 : Add Element.
+     2 : Get Element.
+     3 : Remove Element.
+     4 : Set Element at index.
+     5 : Contains Element.
+     6 : size of ArrayList(.size())
+Refer : Operations_Arraylist code
+
+
+NOTE : SORTING OF ArrayList
+*Use of Collections class by import java.util.Collections;
+*It will sort in ascending order
+  Collections.sort(list);
+  Refer : swaptwonumbersArraylist code
+
+Important  note :
+   Collections = Classes
+   Collections = inteface 

@@ -1,0 +1,35 @@
+* Array - List of Elements having same data type and are stored or placed in a 
+contiguous memory location .
+
+* Operations in Array : 
+   1-> Create
+   2-> Input   //refer code
+   3-> Output  //refer code
+   4-> Update  //refer code
+
+   1}Creating an Array : 
+   dataType arrayName[] = new dataType[size];
+   eg:
+   int marks[] = new int[50];
+   String name[] = {"Abhay","Samarth","Karan"}; 
+   
+   
+* Linear Search is defined as a sequential search algorithm that starts at 
+   one end and goes through each element of a list until the desired element is found,
+   otherwise the search continues till the end of the data set.
+   -> It is the easiest searching algorithm
+   -> Refer : LinearSearch_Arrays code..
+
+
+* Binary Search in Java is a search algorithm that finds the position of a target 
+   value within a sorted array.
+          Binary Search Algorithm: The basic steps to perform Binary Search are:
+        -> Begin with the mid element of the whole array as a search key.
+        -> If the value of the search key is equal to the item then return an index of the search key.
+        -> Or if the value of the search key is less than the item in the middle of the interval, 
+         narrow the interval to the lower half.
+         Otherwise, narrow it to the upper half.
+        -> Repeatedly check from the second point until the value is found or the interval is empty.
+        -> Refer : Binarysearch code...
+
+

@@ -1,0 +1,122 @@
+# OOPS 
+   a]  Class : A class is a group of objects which have common properties. It is a template or blueprint from which objects are created.
+   b] Objects : an object is the instance(result) of a class.
+
+   # Four pillars of OOPS : 
+   1] Encapsulation
+   2] Inheritance
+   3] Polymorphism
+   4] Abstraction  
+
+
+# 1] Encapsulation : 
+ Defn: It is defined as the wrapping of data(properties) & methods(functions) under a single unit . It also implements  data hiding.
+ > Data hiding is done by using Access Specifiers or modifiers in Encapsulation.
+
+
+# 2] INHERITANCE :  
+_ Inheritance_ is when properties and methods of Base class or Parent class are passed on to a derived class or child class..
+
+# Types of inheritance : 
+  1] Single Level inheritance.
+    Base class --> Derived class
+
+  2] Multi Level inheritance.
+  Base class --> Derived class --> Derived class
+
+  3] Hierarchial inheritance.
+  Base class --> Derived class 1
+             --> Derived class 2
+             --> Derived class 3
+
+  4] Hybrid inheritance .
+  Base class --> Derived class (a) --> Derived class 1 
+                               --> Derived class 2  
+                  Derived class (b) --> Derived class 1 
+                               --> Derived class 2  
+                   Derived class (c) --> Derived class 1 
+                               --> Derived class 2               
+                                        
+
+
+# 3] Polymorphism 
+Poly = many 
+Morphism = forms
+
+# Compile Time Polymorphism
+** Method Overloading --> Multiple functions with same name but different parameters.
+
+# Run Time Polymorphism
+** Method Overridding --> Parent and Child classes both contain the same function but with
+different definations.
+
+
+# 4] Abstraction : 
+Defn : Hiding all the unnecessary details and Showing only the important parts{Abstract classes,Interfaces} to the users.
+
+# Features : 
+1] Cannot create an instance(object) of abstract class.
+2] Can have abstract and non-abstract methods.
+3] can have Constructors.
+
+# Advantages : 
+1 ] Security 
+2 ] efficient 
+3 ] reliability
+
+
+# ACCESS MODIFIERS/SPECIFIERS:
+                  | within class  |   within package |   outside package by subclass only  |  outside package |
+ 1 ] private      |        Y      |         N        |             N                       |       N          |
+ 2 ] default      |        Y      |         Y        |             N                       |       N          |
+ 3 ] protected    |        Y      |         Y        |             Y                       |       N          |
+ 4 ] public       |        Y      |         Y        |             Y                       |       Y          |
+
+# Getters and Setters :
+  Get : to return the value
+  Set : to modify the value
+
+  this : this keyword is used to refer the current object.   
+
+
+
+# CONSTRUCTOR : is a special method which is invoked automatically at the time of object creation.
+** It is used for initialization of objects..
+
+# Features: 
+1 } Constructors have the same name as the class or structure.
+2 } Constructors do not have the return type (Not even void ).
+3 } Constructors are only called once, at object creation.
+4 } Memory allocation happens when constructor is called.
+
+# Destructor : which destructs the created object 
+ --> java has by default (Garbage Collector) which destructs the memory if it is not used..
+
+# Types of Constructors: 
+ 1 ] Non - Parameterized Constructor.
+ 2 ] Parameterized Constructor.
+ 3 ] Copy Constructor.
+
+
+
+
+
+# Packages in java
+ Defn : It is a group of similar types of Classes, interfaces and sub packages.
+ Types : 1 } Inbuilt Packages  (java.util.*)
+         2 } User defined Packages
+
+
+
+
+# Interfaces 
+defn : is a blueprint of a class.
+
+Reasons for using Interfaces :
+  1] Multiple Inheritance .
+  2] Total abstraction .
+
+# Properties 
+1] All the method are public , abstract & without implementation.
+2] Used to achieve total abstraction.
+3] Variables in the Interfaces are final , public and static.

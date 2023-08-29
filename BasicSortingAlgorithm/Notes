@@ -1,0 +1,55 @@
+Sorting Algorithm : 
+
+* 1}  Bubble Sort  : is the simplest sorting algorithm that works by repeatedly swapping 
+the adjacent elements if they are in the wrong order. 
+This algorithm is not suitable for large data sets as its average and worst-case time complexity is quite high.
+
+* Follow the below steps to solve the problem:
+
+a) Run a nested for loop to traverse the input array using two variables i and j, 
+such that 0 ≤ i < n-1 and 0 ≤ j < n-i-1..
+b} If arr[j] is greater than arr[j+1] then swap these adjacent elements, else move on
+c } Print the sorted array
+
+NOTE : Time Complexity: O(N2)
+Auxiliary Space: O(1) 
+
+
+* 2} Selection sort  : is the algorithm that  sorts an array by repeatedly finding the minimum
+ element (considering ascending order)
+ from the unsorted part and putting it at the beginning. 
+
+ * Selection Sort Algorithm: 
+
+Step 1 − Set Min_Index to 0
+Step 2 − Search for the smallest element in the array
+Step 3 − Swap with value with the element at the Min_Index
+Step 4 − Increment Min_Index to point to next element
+Step 5 − Repeat until the complete array is sorted
+
+
+* 3 } Insertion sort : is a simple sorting algorithm that works similar to the way you sort
+ playing cards in your hands. The array is virtually split into a sorted and an unsorted part. 
+ Values from the unsorted part are picked and placed at the correct position in the sorted part.
+
+* To sort an array of size N in ascending order: 
+
+Iterate from arr[1] to arr[N] over the array. 
+Compare the current element (key) to its predecessor. 
+If the key element is smaller than its predecessor, compare it to the elements before. 
+Move the greater elements one position up to make space for the swapped element.
+ 
+ * 4 } Inbuilt Sort
+    import java.util.Arrays;
+    //Ascending order 
+    Arrays.sort(arr);
+    Arrays.sort(arr,startingIndex,EndingIndex) // Ending index should be + 1 for the element you want 
+    at that index..
+
+
+  // for reverse order 
+  import java.util.Collections;
+  Arrays.sort(arr,Collections.reverseOrder())
+  // in case of sorting for particular elements : 
+  Arrays.sort(arr,startingIndex,EndingIndex,Collections.reverseOrder())  // Ending index should be + 1 for the element you want 
+    at that index..

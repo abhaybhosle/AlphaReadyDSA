@@ -1,47 +1,46 @@
-package PriorityQueue;
+package PRIORITYQUEUE;
 
-import java.util.ArrayList;
+import java.util.*;
 
-public class InsertInHeap {
+// Min Heap
+public class Heaps {
     static class Heap {
         ArrayList<Integer> arr = new ArrayList<>();
 
-        // insert
         public void add(int data) { // O(logn)
             // add at last index
             arr.add(data);
 
             int x = arr.size() - 1; // x is a child index
-            int par = (x - 1) / 2; // parent index
+            int parent = (x - 1) / 2; // parent index
 
-            while (arr.get(x) < arr.get(par)) { // O(logn)
-                // swap
+            while (arr.get(x) < arr.get(parent)) { // change sign for MaxHeap
                 int temp = arr.get(x);
-                arr.set(x, arr.get(par));
-                arr.set(par, temp);
+                arr.set(x, arr.get(parent));
+                arr.set(parent, temp);
 
-                x = par;
-                par = (x - 1)/2;
+                x = parent;
+                parent = (x - 1) / 2;
             }
-
         }
 
         public int peek() {
-            return arr.get(0); // It returs the min value of the BT .. as we know in case of Min-Heap the root
-                               // contains the smalles value.
+            return arr.get(0);
         }
 
-        public void heapify(int i) {
+        private void heapify(int i) {
             int left = 2 * i + 1;
             int right = 2 * i + 2;
             int minIndx = i;
-            // lead node (left<arr.size)
-            if (left < arr.size() && arr.get(minIndx) > arr.get(left)) {
+
+            if (left < arr.size() && arr.get(minIndx) > arr.get(left)) { // change sign for MaxHeap
                 minIndx = left;
             }
-            if (right < arr.size() && arr.get(minIndx) > arr.get(right)) {
+
+            if (right < arr.size() && arr.get(minIndx) > arr.get(right)) { // change sign for MaxHeap
                 minIndx = right;
             }
+
             if (minIndx != i) {
                 // swap
                 int temp = arr.get(i);
@@ -55,18 +54,17 @@ public class InsertInHeap {
         public int remove() {
             int data = arr.get(0);
 
-            // step1 - swap first and last
+            // step 1 - > swap first and last
             int temp = arr.get(0);
-            arr.set(arr.get(0), arr.get(arr.size() - 1));
+            arr.set(0, arr.get(arr.size() - 1));
             arr.set(arr.size() - 1, temp);
 
-            // step2 - delete last
+            // step 2 -> delete last
             arr.remove(arr.size() - 1);
 
-            // step3 - heapify
+            // step 3 -> heapify
             heapify(0);
             return data;
-
         }
 
         public boolean isEmpty() {
@@ -76,15 +74,15 @@ public class InsertInHeap {
 
     public static void main(String[] args) {
         Heap h = new Heap();
-        h.add(3);
-        h.add(4);
         h.add(1);
-        h.add(23);
+        h.add(13);
+        h.add(34);
+        h.add(77);
+        h.remove();
 
         while (!h.isEmpty()) {
             System.out.println(h.peek());
             h.remove();
         }
-
     }
 }
