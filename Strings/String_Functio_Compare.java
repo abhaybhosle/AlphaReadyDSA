@@ -22,7 +22,7 @@ public class String_Functio_Compare {
 
         // }
         // output it is not equal , as str3 creates a new string in
-        // the heep
+        // the heap
         // and the memory located in the stack will point towards the new string created
         // in the heep..
 
