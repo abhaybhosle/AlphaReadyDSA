@@ -48,10 +48,71 @@ public class BFS_DFS {
 
     }
 
-    public static void bfs(ArrayList<Edge> graph[]) {
+    // public static void bfs(ArrayList<Edge> graph[]) {
+    // Queue<Integer> q = new LinkedList<>();
+    // q.add(0); // starting index - we can take any node
+    // boolean visited[] = new boolean[graph.length]; // to keep track that no node
+    // is repeated
+
+    // while (!q.isEmpty()) {
+    // int curr = q.remove();
+
+    // if (!visited[curr]) { // if the element is not visited then it will go to
+    // loop
+    // System.out.print(curr + " "); // step 1 - print the current value
+    // visited[curr] = true; // make the value as visited i.e true
+    // for (int i = 0; i < graph[curr].size(); i++) { // find all the neighbouring
+    // nodes of the curr number
+    // Edge e = graph[curr].get(i);
+    // q.add(e.dest);
+    // }
+    // }
+    // }
+    // }
+
+    // public static void dfs(ArrayList<Edge> graph[], int curr, boolean vis[]) {
+    // // visit
+    // System.out.print(curr + " ");
+    // vis[curr] = true;
+
+    // for (int i = 0; i < graph[curr].size(); i++) {
+    // Edge e = graph[curr].get(i);
+    // if (!vis[e.dest]) {
+    // dfs(graph, e.dest, vis);
+    // }
+    // }
+    // }
+
+    // If a graph has a path or not
+    public static boolean hasPath(ArrayList<Edge>[] graph, int src, int dest, boolean vis[]) { // O(V+E)
+        if (src == dest) {
+            return true;
+        }
+        vis[src] = true;
+        for (int i = 0; i < graph[src].size(); i++) {
+            Edge e = graph[src].get(i);
+            // e.dest = neighbour
+            if (!vis[e.dest] && hasPath(graph, e.dest, dest, vis)) {
+                return true;
+            }
+        }
+        return false;
+    }
+
+    // Connected graphs :
+    
+    public static void bfs(ArrayList<Edge>[] graph) {
+        boolean visited[] = new boolean[graph.length];
+        for (int i = 0; i < graph.length; i++) {
+            if (!visited[i]) {
+                bfsUtil(graph, visited);
+            }
+        }
+    }
+
+    public static void bfsUtil(ArrayList<Edge> graph[], boolean visited[]) { // Helper function
         Queue<Integer> q = new LinkedList<>();
-        q.add(0); // starting index - we can take any node
-        boolean visited[] = new boolean[graph.length]; // to keep track that no node is repeated
+        q.add(0);
 
         while (!q.isEmpty()) {
             int curr = q.remove();
@@ -67,7 +128,16 @@ public class BFS_DFS {
         }
     }
 
-    public static void dfs(ArrayList<Edge> graph[], int curr, boolean vis[]) {
+    public static void dfs(ArrayList<Edge> graph[]) {
+        boolean vis[] = new boolean[graph.length];
+        for (int i = 0; i < graph.length; i++) {
+            if (!vis[i]) {
+                dfsUtil(graph, i, vis);
+            }
+        }
+    }
+
+    public static void dfsUtil(ArrayList<Edge> graph[], int curr, boolean vis[]) {
         // visit
         System.out.print(curr + " ");
         vis[curr] = true;
@@ -75,26 +145,10 @@ public class BFS_DFS {
         for (int i = 0; i < graph[curr].size(); i++) {
             Edge e = graph[curr].get(i);
             if (!vis[e.dest]) {
-                dfs(graph, e.dest, vis);
+                dfsUtil(graph, e.dest, vis);
             }
         }
     }
-    //If a graph has a path or not
-    public static boolean hasPath(ArrayList<Edge>[] graph, int src, int dest, boolean vis[]) {
-        if (src == dest) {
-            return true;
-        }
-        vis[src] = true;
-        for (int i = 0; i < graph[src].size(); i++) {
-            Edge e = graph[src].get(i);
-            //e.dest = neighbour
-            if (!vis[e.dest] && hasPath(graph, e.dest, dest, vis)) {
-                return true;
-            }
-        }
-        return false;
-    }
-
 
     public static void main(String[] args) {
         int V = 7;
