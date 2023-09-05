@@ -1,7 +1,6 @@
 package Graphs;
 
 import java.util.*;
-import java.util.Stack;
 
 public class TopologicalSorting {
     static class Edge {
@@ -32,14 +31,12 @@ public class TopologicalSorting {
 
         for (int i = 0; i < graph.length; i++) {
             if (!vis[i]) {
-                topSortUtil(graph, i, vis,s); // Modified dfs
+                topSortUtil(graph, i, vis, s); // Modified dfs
             }
         }
-        while(! s.empty()){
-            System.out.print(s.pop()+" ");
+        while (!s.empty()) {
+            System.out.print(s.pop() + " ");
         }
-
-        
     }
 
     public static void topSortUtil(ArrayList<Edge>[] graph, int curr, boolean vis[], Stack<Integer> s) {
