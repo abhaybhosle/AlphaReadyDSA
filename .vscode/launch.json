@@ -1,0 +1,896 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "java",
+            "name": "Current File",
+            "request": "launch",
+            "mainClass": "${file}"
+        },
+        {
+            "type": "java",
+            "name": "FindMaxarrayList",
+            "request": "launch",
+            "mainClass": "ArrayList.FindMaxarrayList",
+            "projectName": "Alpha Ready DSA_62ce18b4"
+        },
+        {
+            "type": "java",
+            "name": "Multidimensional_Arraylist",
+            "request": "launch",
+            "mainClass": "ArrayList.Multidimensional_Arraylist",
+            "projectName": "Alpha Ready DSA_62ce18b4"
+        },
+        {
+            "type": "java",
+            "name": "Operations_Arraylist",
+            "request": "launch",
+            "mainClass": "ArrayList.Operations_Arraylist",
+            "projectName": "Alpha Ready DSA_62ce18b4"
+        },
+        {
+            "type": "java",
+            "name": "reverseofArraylist",
+            "request": "launch",
+            "mainClass": "ArrayList.reverseofArraylist",
+            "projectName": "Alpha Ready DSA_62ce18b4"
+        },
+        {
+            "type": "java",
+            "name": "swaptwonumbersArraylist",
+            "request": "launch",
+            "mainClass": "ArrayList.swaptwonumbersArraylist",
+            "projectName": "Alpha Ready DSA_62ce18b4"
+        },
+        {
+            "type": "java",
+            "name": "Assignmentques1",
+            "request": "launch",
+            "mainClass": "Arrays.Assignmentques1",
+            "projectName": "Alpha Ready DSA_62ce18b4"
+        },
+        {
+            "type": "java",
+            "name": "Binary_search_Arrays",
+            "request": "launch",
+            "mainClass": "Arrays.Binary_search_Arrays",
+            "projectName": "Alpha Ready DSA_62ce18b4"
+        },
+        {
+            "type": "java",
+            "name": "Buy_and_Sell_Stocks_ques",
+            "request": "launch",
+            "mainClass": "Arrays.Buy_and_Sell_Stocks_ques",
+            "projectName": "Alpha Ready DSA_62ce18b4"
+        },
+        {
+            "type": "java",
+            "name": "Largest_Smallest_in_Array",
+            "request": "launch",
+            "mainClass": "Arrays.Largest_Smallest_in_Array",
+            "projectName": "Alpha Ready DSA_62ce18b4"
+        },
+        {
+            "type": "java",
+            "name": "LinearSearch_Arrays",
+            "request": "launch",
+            "mainClass": "Arrays.LinearSearch_Arrays",
+            "projectName": "Alpha Ready DSA_62ce18b4"
+        },
+        {
+            "type": "java",
+            "name": "Operators_in_Arrays",
+            "request": "launch",
+            "mainClass": "Arrays.Operators_in_Arrays",
+            "projectName": "Alpha Ready DSA_62ce18b4"
+        },
+        {
+            "type": "java",
+            "name": "Pairs_in_Arrays",
+            "request": "launch",
+            "mainClass": "Arrays.Pairs_in_Arrays",
+            "projectName": "Alpha Ready DSA_62ce18b4"
+        },
+        {
+            "type": "java",
+            "name": "Reverse_Binary_search",
+            "request": "launch",
+            "mainClass": "Arrays.Reverse_Binary_search",
+            "projectName": "Alpha Ready DSA_62ce18b4"
+        },
+        {
+            "type": "java",
+            "name": "SubArrays_in_arrays",
+            "request": "launch",
+            "mainClass": "Arrays.SubArrays_in_arrays",
+            "projectName": "Alpha Ready DSA_62ce18b4"
+        },
+        {
+            "type": "java",
+            "name": "TrappedWaterques",
+            "request": "launch",
+            "mainClass": "Arrays.TrappedWaterques",
+            "projectName": "Alpha Ready DSA_62ce18b4"
+        },
+        {
+            "type": "java",
+            "name": "max_subarrays_sum",
+            "request": "launch",
+            "mainClass": "Arrays.max_subarrays_sum",
+            "projectName": "Alpha Ready DSA_62ce18b4"
+        },
+        {
+            "type": "java",
+            "name": "Diagonal_matrix_sum",
+            "request": "launch",
+            "mainClass": "Arrays_in_2D.Diagonal_matrix_sum",
+            "projectName": "Alpha Ready DSA_62ce18b4"
+        },
+        {
+            "type": "java",
+            "name": "Matrix_creation",
+            "request": "launch",
+            "mainClass": "Arrays_in_2D.Matrix_creation",
+            "projectName": "Alpha Ready DSA_62ce18b4"
+        },
+        {
+            "type": "java",
+            "name": "Ques1",
+            "request": "launch",
+            "mainClass": "Arrays_in_2D.Ques1",
+            "projectName": "Alpha Ready DSA_62ce18b4"
+        },
+        {
+            "type": "java",
+            "name": "Ques2",
+            "request": "launch",
+            "mainClass": "Arrays_in_2D.Ques2",
+            "projectName": "Alpha Ready DSA_62ce18b4"
+        },
+        {
+            "type": "java",
+            "name": "Search_in_Sorted_Matrix",
+            "request": "launch",
+            "mainClass": "Arrays_in_2D.Search_in_Sorted_Matrix",
+            "projectName": "Alpha Ready DSA_62ce18b4"
+        },
+        {
+            "type": "java",
+            "name": "Spiral_Matrix",
+            "request": "launch",
+            "mainClass": "Arrays_in_2D.Spiral_Matrix",
+            "projectName": "Alpha Ready DSA_62ce18b4"
+        },
+        {
+            "type": "java",
+            "name": "ques3",
+            "request": "launch",
+            "mainClass": "Arrays_in_2D.ques3",
+            "projectName": "Alpha Ready DSA_62ce18b4"
+        },
+        {
+            "type": "java",
+            "name": "BacktrackingInArrays",
+            "request": "launch",
+            "mainClass": "Backtracking.BacktrackingInArrays",
+            "projectName": "Alpha Ready DSA_62ce18b4"
+        },
+        {
+            "type": "java",
+            "name": "FindPermutations",
+            "request": "launch",
+            "mainClass": "Backtracking.FindPermutations",
+            "projectName": "Alpha Ready DSA_62ce18b4"
+        },
+        {
+            "type": "java",
+            "name": "FindSubsets",
+            "request": "launch",
+            "mainClass": "Backtracking.FindSubsets",
+            "projectName": "Alpha Ready DSA_62ce18b4"
+        },
+        {
+            "type": "java",
+            "name": "nQueens",
+            "request": "launch",
+            "mainClass": "Backtracking.nQueens",
+            "projectName": "Alpha Ready DSA_62ce18b4"
+        },
+        {
+            "type": "java",
+            "name": "Bubble_Sort",
+            "request": "launch",
+            "mainClass": "BasicSortingAlgorithm.Bubble_Sort",
+            "projectName": "Alpha Ready DSA_62ce18b4"
+        },
+        {
+            "type": "java",
+            "name": "In_Built_Sorting",
+            "request": "launch",
+            "mainClass": "BasicSortingAlgorithm.In_Built_Sorting",
+            "projectName": "Alpha Ready DSA_62ce18b4"
+        },
+        {
+            "type": "java",
+            "name": "Insertion_Sort",
+            "request": "launch",
+            "mainClass": "BasicSortingAlgorithm.Insertion_Sort",
+            "projectName": "Alpha Ready DSA_62ce18b4"
+        },
+        {
+            "type": "java",
+            "name": "Selection_Sort",
+            "request": "launch",
+            "mainClass": "BasicSortingAlgorithm.Selection_Sort",
+            "projectName": "Alpha Ready DSA_62ce18b4"
+        },
+        {
+            "type": "java",
+            "name": "BuildTreePreorder",
+            "request": "launch",
+            "mainClass": "BinaryTrees.BuildTreePreorder",
+            "projectName": "Alpha Ready DSA_62ce18b4"
+        },
+        {
+            "type": "java",
+            "name": "HeightOfTree",
+            "request": "launch",
+            "mainClass": "BinaryTrees.HeightOfTree",
+            "projectName": "Alpha Ready DSA_62ce18b4"
+        },
+        {
+            "type": "java",
+            "name": "Operations",
+            "request": "launch",
+            "mainClass": "BitManipulation.Operations",
+            "projectName": "Alpha Ready DSA_62ce18b4"
+        },
+        {
+            "type": "java",
+            "name": "ChocolateDist",
+            "request": "launch",
+            "mainClass": "DSASHEET.Arrays.ChocolateDist",
+            "projectName": "Alpha Ready DSA_62ce18b4"
+        },
+        {
+            "type": "java",
+            "name": "DuplicateValue",
+            "request": "launch",
+            "mainClass": "DSASHEET.Arrays.DuplicateValue",
+            "projectName": "Alpha Ready DSA_62ce18b4"
+        },
+        {
+            "type": "java",
+            "name": "Max_Min_Arrays",
+            "request": "launch",
+            "mainClass": "DSASHEET.Arrays.Max_Min_Arrays",
+            "projectName": "Alpha Ready DSA_62ce18b4"
+        },
+        {
+            "type": "java",
+            "name": "Reversearray",
+            "request": "launch",
+            "mainClass": "DSASHEET.Arrays.Reversearray",
+            "projectName": "Alpha Ready DSA_62ce18b4"
+        },
+        {
+            "type": "java",
+            "name": "Search_In_Rotatedarray",
+            "request": "launch",
+            "mainClass": "DSASHEET.Arrays.Search_In_Rotatedarray",
+            "projectName": "Alpha Ready DSA_62ce18b4"
+        },
+        {
+            "type": "java",
+            "name": "Subarray",
+            "request": "launch",
+            "mainClass": "DSASHEET.Arrays.Subarray",
+            "projectName": "Alpha Ready DSA_62ce18b4"
+        },
+        {
+            "type": "java",
+            "name": "ValidAnagram",
+            "request": "launch",
+            "mainClass": "DSASHEET.Strings.ValidAnagram",
+            "projectName": "Alpha Ready DSA_62ce18b4"
+        },
+        {
+            "type": "java",
+            "name": "ValidPalindrome",
+            "request": "launch",
+            "mainClass": "DSASHEET.Strings.ValidPalindrome",
+            "projectName": "Alpha Ready DSA_62ce18b4"
+        },
+        {
+            "type": "java",
+            "name": "MergeSortCode",
+            "request": "launch",
+            "mainClass": "DivideAndConquer.MergeSortCode",
+            "projectName": "Alpha Ready DSA_62ce18b4"
+        },
+        {
+            "type": "java",
+            "name": "QuickSortCode",
+            "request": "launch",
+            "mainClass": "DivideAndConquer.QuickSortCode",
+            "projectName": "Alpha Ready DSA_62ce18b4"
+        },
+        {
+            "type": "java",
+            "name": "RotatedAndSortedCode",
+            "request": "launch",
+            "mainClass": "DivideAndConquer.RotatedAndSortedCode",
+            "projectName": "Alpha Ready DSA_62ce18b4"
+        },
+        {
+            "type": "java",
+            "name": "BFS_DFS",
+            "request": "launch",
+            "mainClass": "Graphs.BFS_DFS",
+            "projectName": "Alpha Ready DSA_62ce18b4"
+        },
+        {
+            "type": "java",
+            "name": "Bipartite",
+            "request": "launch",
+            "mainClass": "Graphs.Bipartite",
+            "projectName": "Alpha Ready DSA_62ce18b4"
+        },
+        {
+            "type": "java",
+            "name": "CreatingGraph",
+            "request": "launch",
+            "mainClass": "Graphs.CreatingGraph",
+            "projectName": "Alpha Ready DSA_62ce18b4"
+        },
+        {
+            "type": "java",
+            "name": "CycleDetection",
+            "request": "launch",
+            "mainClass": "Graphs.CycleDetection",
+            "projectName": "Alpha Ready DSA_62ce18b4"
+        },
+        {
+            "type": "java",
+            "name": "CycleDetectionForDirectedGraph",
+            "request": "launch",
+            "mainClass": "Graphs.CycleDetectionForDirectedGraph",
+            "projectName": "Alpha Ready DSA_62ce18b4"
+        },
+        {
+            "type": "java",
+            "name": "TopologicalSorting",
+            "request": "launch",
+            "mainClass": "Graphs.TopologicalSorting",
+            "projectName": "Alpha Ready DSA_62ce18b4"
+        },
+        {
+            "type": "java",
+            "name": "TopologicalSortingBFS",
+            "request": "launch",
+            "mainClass": "Graphs.TopologicalSortingBFS",
+            "projectName": "Alpha Ready DSA_62ce18b4"
+        },
+        {
+            "type": "java",
+            "name": "ActivitySel",
+            "request": "launch",
+            "mainClass": "GreedyAlgorithms.ActivitySel",
+            "projectName": "Alpha Ready DSA_62ce18b4"
+        },
+        {
+            "type": "java",
+            "name": "FractionalKnapsack",
+            "request": "launch",
+            "mainClass": "GreedyAlgorithms.FractionalKnapsack",
+            "projectName": "Alpha Ready DSA_62ce18b4"
+        },
+        {
+            "type": "java",
+            "name": "IndianCoins",
+            "request": "launch",
+            "mainClass": "GreedyAlgorithms.IndianCoins",
+            "projectName": "Alpha Ready DSA_62ce18b4"
+        },
+        {
+            "type": "java",
+            "name": "MaxLengthChainOfPairs",
+            "request": "launch",
+            "mainClass": "GreedyAlgorithms.MaxLengthChainOfPairs",
+            "projectName": "Alpha Ready DSA_62ce18b4"
+        },
+        {
+            "type": "java",
+            "name": "MinSumPairsAbsoluteDiff",
+            "request": "launch",
+            "mainClass": "GreedyAlgorithms.MinSumPairsAbsoluteDiff",
+            "projectName": "Alpha Ready DSA_62ce18b4"
+        },
+        {
+            "type": "java",
+            "name": "Arraysareequalornot",
+            "request": "launch",
+            "mainClass": "HashMap.Arraysareequalornot",
+            "projectName": "Alpha Ready DSA_62ce18b4"
+        },
+        {
+            "type": "java",
+            "name": "HashMapOperation",
+            "request": "launch",
+            "mainClass": "HashMap.HashMapOperation",
+            "projectName": "Alpha Ready DSA_62ce18b4"
+        },
+        {
+            "type": "java",
+            "name": "ImplementationOfHashMap",
+            "request": "launch",
+            "mainClass": "HashMap.ImplementationOfHashMap",
+            "projectName": "Alpha Ready DSA_62ce18b4"
+        },
+        {
+            "type": "java",
+            "name": "LinkedHashMaps",
+            "request": "launch",
+            "mainClass": "HashMap.LinkedHashMaps",
+            "projectName": "Alpha Ready DSA_62ce18b4"
+        },
+        {
+            "type": "java",
+            "name": "MajorityElement",
+            "request": "launch",
+            "mainClass": "HashMap.MajorityElement",
+            "projectName": "Alpha Ready DSA_62ce18b4"
+        },
+        {
+            "type": "java",
+            "name": "Q",
+            "request": "launch",
+            "mainClass": "HashMap.Q",
+            "projectName": "Alpha Ready DSA_62ce18b4"
+        },
+        {
+            "type": "java",
+            "name": "Q1",
+            "request": "launch",
+            "mainClass": "HashMap.Q1",
+            "projectName": "Alpha Ready DSA_62ce18b4"
+        },
+        {
+            "type": "java",
+            "name": "Q2",
+            "request": "launch",
+            "mainClass": "HashMap.Q2",
+            "projectName": "Alpha Ready DSA_62ce18b4"
+        },
+        {
+            "type": "java",
+            "name": "Q3",
+            "request": "launch",
+            "mainClass": "HashMap.Q3",
+            "projectName": "Alpha Ready DSA_62ce18b4"
+        },
+        {
+            "type": "java",
+            "name": "Q4",
+            "request": "launch",
+            "mainClass": "HashMap.Q4",
+            "projectName": "Alpha Ready DSA_62ce18b4"
+        },
+        {
+            "type": "java",
+            "name": "Q5",
+            "request": "launch",
+            "mainClass": "HashMap.Q5",
+            "projectName": "Alpha Ready DSA_62ce18b4"
+        },
+        {
+            "type": "java",
+            "name": "TreeMapss",
+            "request": "launch",
+            "mainClass": "HashMap.TreeMapss",
+            "projectName": "Alpha Ready DSA_62ce18b4"
+        },
+        {
+            "type": "java",
+            "name": "ValidAnagram(1)",
+            "request": "launch",
+            "mainClass": "HashMap.ValidAnagram",
+            "projectName": "Alpha Ready DSA_62ce18b4"
+        },
+        {
+            "type": "java",
+            "name": "CircularLL",
+            "request": "launch",
+            "mainClass": "LinkedList.CircularLL",
+            "projectName": "Alpha Ready DSA_62ce18b4"
+        },
+        {
+            "type": "java",
+            "name": "CreationOfLinkedList",
+            "request": "launch",
+            "mainClass": "LinkedList.CreationOfLinkedList",
+            "projectName": "Alpha Ready DSA_62ce18b4"
+        },
+        {
+            "type": "java",
+            "name": "DoublyLL",
+            "request": "launch",
+            "mainClass": "LinkedList.DoublyLL",
+            "projectName": "Alpha Ready DSA_62ce18b4"
+        },
+        {
+            "type": "java",
+            "name": "LL2",
+            "request": "launch",
+            "mainClass": "LinkedList.LL2",
+            "projectName": "Alpha Ready DSA_62ce18b4"
+        },
+        {
+            "type": "java",
+            "name": "LinkedListJCF",
+            "request": "launch",
+            "mainClass": "LinkedList.LinkedListJCF",
+            "projectName": "Alpha Ready DSA_62ce18b4"
+        },
+        {
+            "type": "java",
+            "name": "MergeSort",
+            "request": "launch",
+            "mainClass": "LinkedList.MergeSort",
+            "projectName": "Alpha Ready DSA_62ce18b4"
+        },
+        {
+            "type": "java",
+            "name": "Abstraction",
+            "request": "launch",
+            "mainClass": "OOPS.Abstraction",
+            "projectName": "Alpha Ready DSA_62ce18b4"
+        },
+        {
+            "type": "java",
+            "name": "Constructors",
+            "request": "launch",
+            "mainClass": "OOPS.Constructors",
+            "projectName": "Alpha Ready DSA_62ce18b4"
+        },
+        {
+            "type": "java",
+            "name": "Getters_Setters",
+            "request": "launch",
+            "mainClass": "OOPS.Getters_Setters",
+            "projectName": "Alpha Ready DSA_62ce18b4"
+        },
+        {
+            "type": "java",
+            "name": "Interfaces",
+            "request": "launch",
+            "mainClass": "OOPS.Interfaces",
+            "projectName": "Alpha Ready DSA_62ce18b4"
+        },
+        {
+            "type": "java",
+            "name": "Method_Overloading",
+            "request": "launch",
+            "mainClass": "OOPS.Method_Overloading",
+            "projectName": "Alpha Ready DSA_62ce18b4"
+        },
+        {
+            "type": "java",
+            "name": "Heaps",
+            "request": "launch",
+            "mainClass": "PRIORITYQUEUE.Heaps",
+            "projectName": "Alpha Ready DSA_62ce18b4"
+        },
+        {
+            "type": "java",
+            "name": "PqForObjects",
+            "request": "launch",
+            "mainClass": "PRIORITYQUEUE.PqForObjects",
+            "projectName": "Alpha Ready DSA_62ce18b4"
+        },
+        {
+            "type": "java",
+            "name": "PqInJCF",
+            "request": "launch",
+            "mainClass": "PRIORITYQUEUE.PqInJCF",
+            "projectName": "Alpha Ready DSA_62ce18b4"
+        },
+        {
+            "type": "java",
+            "name": "CircularQueueUsingArrays",
+            "request": "launch",
+            "mainClass": "Queues.CircularQueueUsingArrays",
+            "projectName": "Alpha Ready DSA_62ce18b4"
+        },
+        {
+            "type": "java",
+            "name": "LLQueue",
+            "request": "launch",
+            "mainClass": "Queues.LLQueue",
+            "projectName": "Alpha Ready DSA_62ce18b4"
+        },
+        {
+            "type": "java",
+            "name": "QueueUsingJCF",
+            "request": "launch",
+            "mainClass": "Queues.QueueUsingJCF",
+            "projectName": "Alpha Ready DSA_62ce18b4"
+        },
+        {
+            "type": "java",
+            "name": "QueuesUsingArrays",
+            "request": "launch",
+            "mainClass": "Queues.QueuesUsingArrays",
+            "projectName": "Alpha Ready DSA_62ce18b4"
+        },
+        {
+            "type": "java",
+            "name": "Solution1",
+            "request": "launch",
+            "mainClass": "Recursion.Assignment.Solution1",
+            "projectName": "Alpha Ready DSA_62ce18b4"
+        },
+        {
+            "type": "java",
+            "name": "Solution2",
+            "request": "launch",
+            "mainClass": "Recursion.Assignment.Solution2",
+            "projectName": "Alpha Ready DSA_62ce18b4"
+        },
+        {
+            "type": "java",
+            "name": "Solution3",
+            "request": "launch",
+            "mainClass": "Recursion.Assignment.Solution3",
+            "projectName": "Alpha Ready DSA_62ce18b4"
+        },
+        {
+            "type": "java",
+            "name": "Solution4",
+            "request": "launch",
+            "mainClass": "Recursion.Assignment.Solution4",
+            "projectName": "Alpha Ready DSA_62ce18b4"
+        },
+        {
+            "type": "java",
+            "name": "BinaryStringProblem",
+            "request": "launch",
+            "mainClass": "Recursion.BinaryStringProblem",
+            "projectName": "Alpha Ready DSA_62ce18b4"
+        },
+        {
+            "type": "java",
+            "name": "DecOrder",
+            "request": "launch",
+            "mainClass": "Recursion.DecOrder",
+            "projectName": "Alpha Ready DSA_62ce18b4"
+        },
+        {
+            "type": "java",
+            "name": "Factorial",
+            "request": "launch",
+            "mainClass": "Recursion.Factorial",
+            "projectName": "Alpha Ready DSA_62ce18b4"
+        },
+        {
+            "type": "java",
+            "name": "Fibonacci",
+            "request": "launch",
+            "mainClass": "Recursion.Fibonacci",
+            "projectName": "Alpha Ready DSA_62ce18b4"
+        },
+        {
+            "type": "java",
+            "name": "First_Occurance",
+            "request": "launch",
+            "mainClass": "Recursion.First_Occurance",
+            "projectName": "Alpha Ready DSA_62ce18b4"
+        },
+        {
+            "type": "java",
+            "name": "Friends_Pairing_Problen",
+            "request": "launch",
+            "mainClass": "Recursion.Friends_Pairing_Problen",
+            "projectName": "Alpha Ready DSA_62ce18b4"
+        },
+        {
+            "type": "java",
+            "name": "Removes_Duplicate_in_String",
+            "request": "launch",
+            "mainClass": "Recursion.Removes_Duplicate_in_String",
+            "projectName": "Alpha Ready DSA_62ce18b4"
+        },
+        {
+            "type": "java",
+            "name": "Sum_Of_n_naturalnumbers",
+            "request": "launch",
+            "mainClass": "Recursion.Sum_Of_n_naturalnumbers",
+            "projectName": "Alpha Ready DSA_62ce18b4"
+        },
+        {
+            "type": "java",
+            "name": "TilingProblem",
+            "request": "launch",
+            "mainClass": "Recursion.TilingProblem",
+            "projectName": "Alpha Ready DSA_62ce18b4"
+        },
+        {
+            "type": "java",
+            "name": "array_is_sorted_or_not",
+            "request": "launch",
+            "mainClass": "Recursion.array_is_sorted_or_not",
+            "projectName": "Alpha Ready DSA_62ce18b4"
+        },
+        {
+            "type": "java",
+            "name": "lastOccurance",
+            "request": "launch",
+            "mainClass": "Recursion.lastOccurance",
+            "projectName": "Alpha Ready DSA_62ce18b4"
+        },
+        {
+            "type": "java",
+            "name": "power",
+            "request": "launch",
+            "mainClass": "Recursion.power",
+            "projectName": "Alpha Ready DSA_62ce18b4"
+        },
+        {
+            "type": "java",
+            "name": "ArrayListStacks",
+            "request": "launch",
+            "mainClass": "Stacks.ArrayListStacks",
+            "projectName": "Alpha Ready DSA_62ce18b4"
+        },
+        {
+            "type": "java",
+            "name": "IsDuplicate",
+            "request": "launch",
+            "mainClass": "Stacks.IsDuplicate",
+            "projectName": "Alpha Ready DSA_62ce18b4"
+        },
+        {
+            "type": "java",
+            "name": "JCFStacks",
+            "request": "launch",
+            "mainClass": "Stacks.JCFStacks",
+            "projectName": "Alpha Ready DSA_62ce18b4"
+        },
+        {
+            "type": "java",
+            "name": "LLStacks",
+            "request": "launch",
+            "mainClass": "Stacks.LLStacks",
+            "projectName": "Alpha Ready DSA_62ce18b4"
+        },
+        {
+            "type": "java",
+            "name": "NextGreatestElement",
+            "request": "launch",
+            "mainClass": "Stacks.NextGreatestElement",
+            "projectName": "Alpha Ready DSA_62ce18b4"
+        },
+        {
+            "type": "java",
+            "name": "PushAtBottomOfStackQues",
+            "request": "launch",
+            "mainClass": "Stacks.PushAtBottomOfStackQues",
+            "projectName": "Alpha Ready DSA_62ce18b4"
+        },
+        {
+            "type": "java",
+            "name": "ReverseAStack",
+            "request": "launch",
+            "mainClass": "Stacks.ReverseAStack",
+            "projectName": "Alpha Ready DSA_62ce18b4"
+        },
+        {
+            "type": "java",
+            "name": "ReverseAStringByStacks",
+            "request": "launch",
+            "mainClass": "Stacks.ReverseAStringByStacks",
+            "projectName": "Alpha Ready DSA_62ce18b4"
+        },
+        {
+            "type": "java",
+            "name": "StackArray",
+            "request": "launch",
+            "mainClass": "Stacks.StackArray",
+            "projectName": "Alpha Ready DSA_62ce18b4"
+        },
+        {
+            "type": "java",
+            "name": "StockSpanProblem",
+            "request": "launch",
+            "mainClass": "Stacks.StockSpanProblem",
+            "projectName": "Alpha Ready DSA_62ce18b4"
+        },
+        {
+            "type": "java",
+            "name": "ValidParentheses",
+            "request": "launch",
+            "mainClass": "Stacks.ValidParentheses",
+            "projectName": "Alpha Ready DSA_62ce18b4"
+        },
+        {
+            "type": "java",
+            "name": "Assignment",
+            "request": "launch",
+            "mainClass": "Strings.Assignment",
+            "projectName": "Alpha Ready DSA_62ce18b4"
+        },
+        {
+            "type": "java",
+            "name": "Convert_letters_toUppercase",
+            "request": "launch",
+            "mainClass": "Strings.Convert_letters_toUppercase",
+            "projectName": "Alpha Ready DSA_62ce18b4"
+        },
+        {
+            "type": "java",
+            "name": "Largest_String",
+            "request": "launch",
+            "mainClass": "Strings.Largest_String",
+            "projectName": "Alpha Ready DSA_62ce18b4"
+        },
+        {
+            "type": "java",
+            "name": "Palidrome",
+            "request": "launch",
+            "mainClass": "Strings.Palidrome",
+            "projectName": "Alpha Ready DSA_62ce18b4"
+        },
+        {
+            "type": "java",
+            "name": "Ques_shortest_Path",
+            "request": "launch",
+            "mainClass": "Strings.Ques_shortest_Path",
+            "projectName": "Alpha Ready DSA_62ce18b4"
+        },
+        {
+            "type": "java",
+            "name": "StringBuilder_Concept",
+            "request": "launch",
+            "mainClass": "Strings.StringBuilder_Concept",
+            "projectName": "Alpha Ready DSA_62ce18b4"
+        },
+        {
+            "type": "java",
+            "name": "String_Compression",
+            "request": "launch",
+            "mainClass": "Strings.String_Compression",
+            "projectName": "Alpha Ready DSA_62ce18b4"
+        },
+        {
+            "type": "java",
+            "name": "String_Functio_Compare",
+            "request": "launch",
+            "mainClass": "Strings.String_Functio_Compare",
+            "projectName": "Alpha Ready DSA_62ce18b4"
+        },
+        {
+            "type": "java",
+            "name": "WordBreakProblem",
+            "request": "launch",
+            "mainClass": "Tries.WordBreakProblem",
+            "projectName": "Alpha Ready DSA_62ce18b4"
+        },
+        {
+            "type": "java",
+            "name": "startsWithProblem",
+            "request": "launch",
+            "mainClass": "Tries.startsWithProblem",
+            "projectName": "Alpha Ready DSA_62ce18b4"
+        },
+        {
+            "type": "java",
+            "name": "tries",
+            "request": "launch",
+            "mainClass": "Tries.tries",
+            "projectName": "Alpha Ready DSA_62ce18b4"
+        }
+    ]
+}
