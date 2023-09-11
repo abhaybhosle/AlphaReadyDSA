@@ -31,7 +31,7 @@ public class TopologicalSortingBFS {
                                                                                  // all nodes
         for (int i = 0; i < graph.length; i++) {
             int v = i;
-            for (int j = 0; j < graph[v].size(); i++) {
+            for (int j = 0; j < graph[v].size(); j++) {
                 Edge e = graph[v].get(j);
                 indeg[e.dest]++;
             }
