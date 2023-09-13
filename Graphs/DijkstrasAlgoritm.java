@@ -68,7 +68,7 @@ public class DijkstrasAlgoritm {
         while (!pq.isEmpty()) {
             Pair curr = pq.remove();
             if (!vis[curr.n]) {
-                vis[curr.n] = true;
+                vis[curr.n] = true; //then make it visited
                 // neighbours
                 for (int i = 0; i < graph[curr.n].size(); i++) {
                     Edge e = graph[curr.n].get(i);
