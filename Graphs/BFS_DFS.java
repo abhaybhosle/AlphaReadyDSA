@@ -48,40 +48,37 @@ public class BFS_DFS {
 
     }
 
-    // public static void bfs(ArrayList<Edge> graph[]) {
-    // Queue<Integer> q = new LinkedList<>();
-    // q.add(0); // starting index - we can take any node
-    // boolean visited[] = new boolean[graph.length]; // to keep track that no node
-    // is repeated
+    public static void bfs(ArrayList<Edge> graph[]) {
+        Queue<Integer> q = new LinkedList<>();
+        q.add(0); // starting index - we can take any node
+        boolean visited[] = new boolean[graph.length]; // to keep track that no node is repeated
 
-    // while (!q.isEmpty()) {
-    // int curr = q.remove();
+        while (!q.isEmpty()) {
+            int curr = q.remove();
 
-    // if (!visited[curr]) { // if the element is not visited then it will go to
-    // loop
-    // System.out.print(curr + " "); // step 1 - print the current value
-    // visited[curr] = true; // make the value as visited i.e true
-    // for (int i = 0; i < graph[curr].size(); i++) { // find all the neighbouring
-    // nodes of the curr number
-    // Edge e = graph[curr].get(i);
-    // q.add(e.dest);
-    // }
-    // }
-    // }
-    // }
+            if (!visited[curr]) { // if the element is not visited then it will go to loop
+                System.out.print(curr + " "); // step 1 - print the current value
+                visited[curr] = true; // make the value as visited i.e true
+                for (int i = 0; i < graph[curr].size(); i++) { // find all the neighbouring nodes of the curr number
+                    Edge e = graph[curr].get(i);
+                    q.add(e.dest);
+                }
+            }
+        }
+    }
 
-    // public static void dfs(ArrayList<Edge> graph[], int curr, boolean vis[]) {
-    // // visit
-    // System.out.print(curr + " ");
-    // vis[curr] = true;
+    public static void dfs(ArrayList<Edge> graph[], int curr, boolean vis[]) {
+        // visit
+        System.out.print(curr + " ");
+        vis[curr] = true;
 
-    // for (int i = 0; i < graph[curr].size(); i++) {
-    // Edge e = graph[curr].get(i);
-    // if (!vis[e.dest]) {
-    // dfs(graph, e.dest, vis);
-    // }
-    // }
-    // }
+        for (int i = 0; i < graph[curr].size(); i++) {
+            Edge e = graph[curr].get(i);
+            if (!vis[e.dest]) {
+                dfs(graph, e.dest, vis);
+            }
+        }
+    }
 
     // If a graph has a path or not
     public static boolean hasPath(ArrayList<Edge>[] graph, int src, int dest, boolean vis[]) { // O(V+E)
@@ -100,15 +97,15 @@ public class BFS_DFS {
     }
 
     // Connected graphs :
-    
-    public static void bfs(ArrayList<Edge>[] graph) {
-        boolean visited[] = new boolean[graph.length];
-        for (int i = 0; i < graph.length; i++) {
-            if (!visited[i]) {
-                bfsUtil(graph, visited);
-            }
-        }
-    }
+
+    // public static void bfs(ArrayList<Edge>[] graph) {
+    // boolean visited[] = new boolean[graph.length];
+    // for (int i = 0; i < graph.length; i++) {
+    // if (!visited[i]) {
+    // bfsUtil(graph, visited);
+    // }
+    // }
+    // }
 
     public static void bfsUtil(ArrayList<Edge> graph[], boolean visited[]) { // Helper function
         Queue<Integer> q = new LinkedList<>();
