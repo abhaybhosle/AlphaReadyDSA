@@ -1,6 +1,6 @@
 package GreedyAlgorithms;
-import java.lang.invoke.TypeDescriptor.OfMethod;
-import java.util.Comparator;
+
+import java.util.*;
 
 public class FractionalKnapsack {
     public static void main(String[] args) {
@@ -17,11 +17,11 @@ public class FractionalKnapsack {
         }
 
         // ascending order
-        Arrays.sort(ration, Comparator.comparingDouble(o -> o[1]));
+        Arrays.sort(ratio, Comparator.comparingDouble(o -> o[1]));
 
-        //now we need to make into descending order
+        // now we need to make into descending order
         int capacity = W;
-        int finVal = 0;
+        int finalVal = 0; // Corrected variable name
         for (int i = ratio.length - 1; i >= 0; i--) {
             int idx = (int) ratio[i][0];
             if (capacity >= weight[i]) {
@@ -33,6 +33,6 @@ public class FractionalKnapsack {
                 break;
             }
         }
-        System.out.println("final value = " + finVal);
+        System.out.println("final value = " + finalVal);
     }
 }

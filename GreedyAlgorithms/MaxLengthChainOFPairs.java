@@ -1,7 +1,6 @@
 package GreedyAlgorithms;
 
-import java.lang.reflect.Array;
-import java.util.Comparator;
+import java.util.*;
 
 public class MaxLengthChainOfPairs {
     public static void main(String[] args) {

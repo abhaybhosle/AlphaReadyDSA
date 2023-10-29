@@ -1,5 +1,5 @@
 package GreedyAlgorithms;
-
+import java.util.*;
 public class MinSumPairsAbsoluteDiff {
     public static void main(String[] args) {
         int a[] = { 3, 4, 31, 1 };
