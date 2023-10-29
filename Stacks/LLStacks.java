@@ -13,9 +13,8 @@ public class LLStacks {
 
     static class Stack {
         static Node head = null;
-        
 
-        //empty
+        // empty
         public static boolean isEmpty() {
             return head == null;
         }
